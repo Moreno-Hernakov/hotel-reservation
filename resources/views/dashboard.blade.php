@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <a href="" class="btn btn-outline-danger">History Transaksi</a>
-                    <a href="" class="btn btn-outline-danger">History Transaksi</a>
+                    <a href="" class="btn btn-outline-danger active">Dashboard</a>
+                    <a href="{{route('reservasi.index')}}" class="btn btn-outline-danger">Reservasi</a>
                     <a href="" class="btn btn-outline-danger">History Transaksi</a>
                     <a href="" class="btn btn-outline-danger">History Transaksi</a>
                 </div>

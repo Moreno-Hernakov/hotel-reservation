@@ -2,6 +2,10 @@
 
 @section('content')
     <div class="container">
+        <div class="content mb-3">
+            <a href="{{route('home')}}" class="btn btn-outline-danger active">Reservasi</a>
+            <a href="{{route('pengunjung.index')}}" class="btn btn-outline-danger">Pengunjung</a>
+        </div>
         <div class="card border-0 shadow-lg mb-4">
             <div class="card-header bg-danger">
                 <h4 class="m-0 fw-bold text-white">Reservasi</h4>

@@ -2,6 +2,10 @@
 
 @section('content')
 <div class="container">
+    <div class="content mb-3">
+        <a href="{{route('home')}}" class="btn btn-outline-danger ">Reservasi</a>
+        <a href="{{route('pengunjung.index')}}" class="btn btn-outline-danger active">Pengunjung</a>
+    </div>
     <div class="row justify-content-center">
         {{-- <div class="col">
             <a href="" class="btn btn-outline-danger">kembali</a>
